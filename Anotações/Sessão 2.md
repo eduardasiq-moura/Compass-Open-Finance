@@ -260,3 +260,94 @@ COINBASE
 ### **Como a LGPD impacta o setor financeiro?**
 - O setor financeiro lida com dados sensíveis, tornando o impacto da LGPD crucial.
 - Vazamentos podem causar danos financeiros e sanções severas.
+
+
+
+
+---------------------------------------------------------
+
+## **Is Web3 all Hype? Top 10 Web 3.0 Questions & Answers**
+
+### **Evolução da Web**  
+- *Web 1.0*: Apenas leitura, baseada em hiperlinks.  
+- *Web 2.0*: Interativa e dominada por grandes corporações (Facebook, YouTube, Twitter).  
+- *Web 3.0*: Descentralizada, segura e sem intermediários como bancos e big techs.  
+
+### **O Hype e a Realidade**  
+- Web 3 está no início, assim como a internet nos anos 90.  
+- Críticas:  
+  - Falta de infraestrutura.  
+  - Bolha especulativa.  
+  - Domínio de capitalistas do Vale do Silício.  
+- Comparação com a bolha da internet: se grandes criptos caírem, Web 3 pode sofrer muito.  
+
+### **Descentralização e Criptomoedas**  
+- *Blockchain* permite apps descentralizados sem bancos.  
+- *Ethereum* como exemplo: smart contracts e taxas de transação (gas fees).  
+- Tecnologias descentralizadas já existiam antes (Napster, BitTorrent).  
+
+### **Funcionamento dos DApps (Aplicações Descentralizadas)**  
+- *Backend* via smart contracts (Solidity).  
+- *Frontend* parecido com apps normais, mas usa carteiras como *MetaMask* para login.  
+- *Tokens e NFTs*: ativos digitais fungíveis e não fungíveis.  
+
+### **Ferramentas e Desenvolvimento**  
+- Frameworks como *Hardhat* e *Truffle* ajudam a criar smart contracts.  
+- Testes com redes locais antes de subir para blockchain.  
+- *Armazenamento off-chain* via *IPFS* para dados grandes.  
+
+### **Como Começar?**  
+- *Remix IDE* facilita primeiros testes com smart contracts.  
+- Canais do YouTube recomendados:  
+  - *HashLibs* (NFTs).  
+  - *Nader Dabit* (Web 3).  
+***
+
+## **Segurança de dados: LGPD e Open Finance | banco BV**
+
+### **O que é Open Finance?**
+
+- Sistema que permite o compartilhamento seguro de dados financeiros entre instituições.
+- Oferece benefícios como ofertas personalizadas e maior controle dos usuários sobre suas informações.
+- Segurança dos Dados
+
+### **Uso de criptografia para proteger as informações.**
+- Compartilhamento ocorre apenas com consentimento explícito do usuário.
+- Conformidade com a LGPD (Lei Geral de Proteção de Dados) para garantir privacidade.
+- Compromisso do BV
+  
+- Mantém um ambiente seguro e atualizado.
+- Opera dentro das normas regulatórias para proteger a integridade dos dados.
+
+----------------------------
+## **O que aprendemos sobre segurança construindo uma fintech?** 
+
+### **Conscientização em Segurança**  
+- Segurança deve ser prioridade em todas as áreas da empresa  
+- Treinamento contínuo para todos os funcionários  
+
+### **Disciplina e Planejamento**  
+- Necessidade de políticas claras e procedimentos rigorosos  
+- Redução de riscos com processos bem definidos  
+
+### **Testes Contínuos e Monitoramento**  
+- Realização de testes de penetração frequentes  
+- Identificação e correção de vulnerabilidades antes de exploração maliciosa  
+
+### **Framework de Segurança**  
+- Estrutura sólida para gerenciamento de riscos  
+- Definição de responsabilidades e adoção de tecnologias adequadas  
+
+### **Educação Contínua**  
+- Manutenção da cultura de segurança através da capacitação de colaboradores  
+- Atualização constante sobre ameaças e boas práticas  
+
+### **Engajamento de Toda a Empresa**  
+- Envolvimento da alta direção na segurança da informação  
+- Promoção de uma cultura organizacional voltada à proteção de dados  
+
+### **Integração com Bancos e Certificação**  
+  - Relação próxima com instituições financeiras para garantir segurança  
+  - Certificações reforçando credibilidade e confiança no mercado  
+ 
+
