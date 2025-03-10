@@ -198,4 +198,64 @@ na história da humanidade.
 
 - Futuro de SLMs: otimização, software, hardware
 
+## Artigo "AI Series Part I: Introduction Concepts"
+
+**Link:** [Medium - Tiago Souto](https://medium.com/@tiago.souto/ai-series-part-i-introduction-concepts-06f2f930b4a3?utm_source=chatgpt.com)
+
+
+### **História da IA**
+- O termo **"Inteligência Artificial"** foi introduzido em **1956** por *John McCarthy* na Conferência de Dartmouth.
+- Conceitos de IA já existiam antes dessa data.
+
+### **Avanços recentes**
+- **Microsoft** apresentou o conceito de **"1-bit LLM"**.
+- Redução da precisão de vetores de **32/16 bits para 1,58 bits**, usando valores **-1, 0 e 1**.
+- **Benefícios**:  
+  - Menor consumo de energia.  
+  - Redução no armazenamento necessário.  
+  - Maior agilidade no processamento.
+
+### **Próximos passos da série**
+- Implementação prática utilizando **JavaScript/TypeScript (NextJS)** e um pouco de **Python**.
+
+### **Convite à comunidade**
+- O autor incentiva os leitores a contribuírem com **opiniões, sugestões e correções**.
+
+## **Artigo "Understanding AI: Machine Learning, Deep Learning, and Generative AI"**
+
+🔗 **Link:** [Medium - Obafemi Babalola](https://medium.com/@obaff/understanding-ai-machine-learning-deep-learning-and-generative-ai-b39ebf02069c)
+
+### **Inteligência Artificial (IA)**
+- **Definição:** Campo da ciência da computação que busca criar sistemas capazes de realizar tarefas que normalmente exigiriam inteligência humana, como reconhecimento de fala, tomada de decisão e tradução de idiomas.
+
+### **Aprendizado de Máquina (Machine Learning)**
+- *Descrição:* Subcampo da IA focado em desenvolver algoritmos que permitem aos computadores aprender a partir de dados e melhorar seu desempenho ao longo do tempo sem serem explicitamente programados para cada tarefa específica.
+- *Abordagens comuns:*
+  - *Aprendizado Supervisionado:* Algoritmos treinados com dados rotulados para prever ou classificar novas entradas.
+  - *Aprendizado Não Supervisionado:* Descoberta de padrões ocultos ou agrupamentos em dados não rotulados.
+  - *Aprendizado por Reforço:* Algoritmos que aprendem a tomar decisões sequenciais através de recompensas e penalidades.
+
+### **Aprendizado Profundo (Deep Learning)**
+- *Descrição:* Subcampo do aprendizado de máquina que utiliza redes neurais artificiais com múltiplas camadas (redes neurais profundas) para modelar representações complexas dos dados.
+- *Aplicações:* Reconhecimento de imagem, processamento de linguagem natural e sistemas de recomendação.
+
+### **IA Generativa (Generative AI)**
+- *Descrição:* Tipo de IA focada em criar novos dados semelhantes aos dados de treinamento, como texto, imagens ou música.
+- *Modelos populares:*
+  - *Modelos de Linguagem de Grande Escala (LLMs):* Como o GPT-3, que podem gerar texto coerente e relevante em linguagem natural.
+  - *Redes Adversárias Generativas (GANs):* Utilizadas para gerar imagens realistas e outros tipos de dados.
+
+### **Modelos Fundamentais (Foundation Models)**
+- *Descrição:* Modelos de aprendizado de máquina treinados em grandes conjuntos de dados que podem ser adaptados para uma ampla gama de tarefas, como os LLMs.
+- *Desafios:* Necessidade de recursos computacionais significativos e grandes volumes de dados para treinamento eficaz.
+
+### **Diferença entre Modelos Generativos e Discriminativos**
+- *Modelos Generativos:* Aprendem a modelar a distribuição conjunta dos dados e podem gerar novos exemplos semelhantes aos dados de treinamento.
+- *Modelos Discriminativos:* Focam em modelar a fronteira de decisão entre diferentes classes nos dados, sendo eficazes em tarefas de classificação.
+
+### **Avanços Recentes e Aplicações**
+- *Educação:* Cursos de IA estão se tornando populares entre profissionais de diversas áreas, incluindo enfermagem e educação, destacando a importância crescente da IA em setores não tradicionais. 
+- *Indústria:* Empresas como a Nvidia têm desempenhado um papel crucial no avanço da IA, fornecendo hardware especializado que suporta o desenvolvimento de modelos de aprendizado profundo e outras aplicações de IA. 
+- *Importância da Educação:* Com o crescente hype em torno da IA, é essencial promover a educação e a compreensão crítica para evitar equívocos e exageros sobre as capacidades da tecnologia. 
+- *Futuro da IA:* Embora a IA tenha avançado significativamente, alcançar uma inteligência artificial geral (AGI) que possa realizar qualquer tarefa cognitiva humana ainda é um objetivo distante, exigindo mais pesquisas e desenvolvimento.
 
