@@ -28,7 +28,68 @@
 - começa com letra minuscula e segundo nome com maiuscula. ex: firstName
 - ex: FirstName e firstName não são reconhecidos como a mesma coisa
 
+```bash
+
+let firstname = 'Eduarda'; //let usada para armz variavel
+let lastname = 'Moura';
+console.log(firstname);
+console.log(lastname);
+
+const price = 30;
+//price = 20;
+console.log(price);
+```
+
 *Tipos de Variáveis*
 
 - primitivo: string, numero, boolean, undefined, null
-- referencial:
+  
+```bash
+let itemName = 'caneta' //string
+let itemPrice = 3 // numerico
+let ItemAvailable = true //boolen
+let itemColor // nao foi definada
+//null é o valor vazio
+```
+
+- referencia: objetos, array e funções
+  - objects:
+```bash
+let pen = { 
+    itemName: 'Pen',
+    itemPrice: 3,
+    ItemAvailable: true,
+    itemColor: 'red' }
+
+console.log(pen)
+
+pen.itemColor = 'blue'; //alterar
+```
+dentro dos objectos ficam suas propriedades
+  - Arrays
+```bash
+let friends = ['Maria', 'João', 'Carlos']
+//lista de item, podem ser string, num, boolean
+
+friends[1] = 'Fabio' //para substituir 
+
+console.log(friends[2]) // mostra o Carlos
+```
+
+  - Funções: grupos de instruções, tarefas que da para criar, exemplo uma operação matemática
+ ```bash 
+function saleStatus(status, total) { //parametro
+    console.log('Transaction ' + status + '! Valor Total: $' + total)
+}
+saleStatus('Aprovado', 30) //argumento
+function percentual10(price){
+    price - (price * 10/100)
+}
+// Outra função
+let total = percentual10(20)
+console.log(total)
+
+// pode ser assim também
+console.log(percentual10(40))
+
+```

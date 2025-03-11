@@ -1,18 +1,9 @@
-console.log('codigo esta funcionando');//puxa uma mensagem na tela
+function percentual10(price){
+    price - (price * 10/100)
+}
 
-let firstname = 'Eduarda'; //let usada para armz variavel
-let lastname = 'Moura';
-console.log(firstname);
-console.log(lastname);
+let total = percentual10(20)
+console.log(total)
 
-const price = 30;
-//price = 20;
-console.log(price);
-
-//Tipos de Variáveis
-
-let itemName = 'caneta' //string
-let itemPrice = 3 // numerico
-let ItemAvailable = true //boolen
-let itemColor // nao foi definada
-//null é o valor vazio
+// pode ser assim também
+console.log(percentual10(40))
