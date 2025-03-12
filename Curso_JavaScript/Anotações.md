@@ -102,7 +102,6 @@ console.log(percentual10(40))
 ### **Operadores Matemáticos**
 
 ````markdown
-```bash
 let num1 = 3
 let num2 = 2
 console.log(num1 + num2) // soma
@@ -112,44 +111,37 @@ console.log(num1 ** num2) // exponencial
 let total = num1 + num2
 console.log(total++)
 console.log(total)
-```
 ````
 
 ### **Operações de Atribuição**
 
 ````markdown
-```bash
 let num1 = 'Eduarda'
 //console.log(num1 > 0) 
 //console.log(num1 < 0) 
 //console.log(num1 >= 3) 
 //console.log(num1 <= 3) 
 console.log(num1 === 'Eduarda') 
-```
 ````
 
 ### **Operações de Igualdade**
 
 ````markdown
-```bash
 let num1 = '1' // string
 let num2 = 1 // number
 console.log(num1 === num2) 
 // vai verificar se sao do mesmo tipo -> strict (T,V)
 console.log(num1 == num2) 
 // vai verificar se tem o mesmo valor -> loose (V)
-```
 ````
 
 ### **Operadores Ternários**
 
 ````markdown
-```bash
 let driver = 90
 let speed = driver > 110 ? 'Above' : 'Below'
 // Se a velocidade for maior que 110...
 console.log(speed)
-```
 ````
 
 ### **Operadores Lógicos: and, or e not**
@@ -158,7 +150,6 @@ console.log(speed)
 - not(!): não
 
 ````markdown
-```bash
 let temIdadeMinima = true
 let temTituloEleitor = true
 
@@ -167,7 +158,6 @@ console.log('Pode votar: ' + podeVotar)
 
 let podeViajar = !podeVotar
 console.log('Pode viajar: ' + podeViajar)
-```
 ````
 
 ### **Operadores Lógicos com Strings**
@@ -175,57 +165,48 @@ console.log('Pode viajar: ' + podeViajar)
 - Ao utilizar o OR vai ser verificado se a corCliente(primeiro termo) foi definido, entao vai aparecer ele primeiro, caso nao tivesse definição ia imprimir a corEstoque que é o 2 termo 
 - Verifição acontece da esquerda pra direita
 ````markdown
-```bash
 let corCliente = 'branco'
 let corEstoque = 'preto'
 let corVendida = corCliente || corEstoque
 
 console.log(corVendida)
-```
 ````
 
 ### **Precedência dos Operadores**
 
 - O que é: quando tem uma expressão matemática por exemplo e vários tipos de operações no meio, qual delas vai ser executada primeira = precedência
 ````markdown
-```bash
 let num1 = 3  + 4 * 2
 console.log(num1)
-```
 ````
 - Aqui a multiplicação tem precedência quanto a adição
 
 - Em calculos mais simples da ora froçar uma precedencia com os parenteses
 
 ````markdown
-```bash
 let num2 = (3  + 4 )* 2
 console.log(num2)
-```
 ````
 ### **Operações condicionais - if else**
 
 ````markdown
-```bash
 let driverSpeed = 80
 
 if (driverSpeed > 110){
     console.log('Dirigindo muito rapido!')
-}
+  }
 else if (driverSpeed > 40 && driverSpeed < 110){
     console.log('OK!')
-}
+  }
 else{
-    console.log('Dirigindo devagar!')
-}
-```
+    console.log('Dirigindo devagar!') 
+    }
 ````
 ### **Switch/Case**
 
 - Trocar esse(switch) por aquele (case)
 - Existem varios cases dentro do switch
 ````markdown
-```bash
 let airport ='MCO'
 
 switch(airport){
@@ -241,18 +222,15 @@ switch(airport){
     default:
     console.log('Unknown') // se nao achar cai aqui
 }
-```
 ````
 ### **For Loop**
 
 - dentro do for existem tres partes: *variavel; condição; encremento*
 
 ````markdown
-```bash
 for(i = 0; i <= 10; i++){
   console.log('Numero ', i)
 }
-```
 ````
 
 ### **While Loop**
@@ -260,15 +238,14 @@ for(i = 0; i <= 10; i++){
 - a variável fica do lado de fora
 - a condição fica dentro do while
 - vantagem: utilizar variaveis ja usadas antes mas em loops diferentes
+
 ````markdown
-```bash
 i = 1
 
 while(i <=10){
   console.log('Numero ', i)
   i++
 }
-```
 ````
 ### **Do While Loop**
 
@@ -276,13 +253,11 @@ while(i <=10){
 - condição vem com o while
 - no 'do' fica o encremento
 ````markdown
-```bash
 i = 1
 do{
   console.log('Numero', i)
   i++
 } while(i <=10)
-```
 ````
 - While verifica antes de executar
 - Do While executa para depois verificar
@@ -290,7 +265,6 @@ do{
 ### **For in Loop**
 
 ````markdown
-```bash
 const myCar = {
   model: 'BMW',
   year: 2025
@@ -299,18 +273,120 @@ const myCar = {
 for(let i in myCar) //vai analisar DENTRO(in) 
   console.log(i, myCar[i])
 
-```
 ````
 ### **For Of Loop**
 - dentro de um array
 
 ````markdown
-```bash
 const friends = ['Duda','Ana', 'Paulo']
 
 for (let i of friends)
   console.log(i)
-```
+````
+---
+
+## **DIA 3**
+
+### **Programação Orientada a Objeto**
+
+- Um objeto pode ser qualquer coisa, ele tem propriedades, métodos (o que pode fazer). Exemplo um livro: 
+  - Propriedades: titulo, autor, paginas, preço
+  - Métodos: ler, vender, comprar, pedir informação
+
+````markdown
+
+const book = {
+   bookTitle: 'Dicas de Jardinagem',
+  bookAuthor: 'Euu',
+  bookPages: 543,
+  bookChapter: {
+    chap1: 'Vasos',
+    chap2: 'FLores'
+  },
+  printBook: function(){ // função dentro do obj
+    console.log('Printing...')
+  }
+}
+
+
+````
+- Funções dentro do Objeto
+
+### **Factory**
+- Usando o exemplo de livros ainda, dentro do factory, vai emglobar varios tipos de objetos, como livros diferentes
+- Usar factory para criar objetos
+  
+````markdown
+function createBook(title, auther, pages,){
+  const book = {
+    Title: title,
+    Author: author,
+    Pages: pages,
+    printBook: function(){ // função dentro do obj
+    console.log('Printing...')
+    }
+  }
+  return book
+} 
+
+const book1 = createBook('Dicas de Jardinagem','Eu',450)
+const book2 = createBook('Dicas na Cozinha','Eu',350)
+
+//Adicionando propriedades
+book1.color = 'White'
+
+console.log('Book:' + book1)
+console.log('Book:' + book2)
+````
+
+### **Criando um Construtor**
+- construtor usa letra maiuscula no começo de cada palavra no nome ex: CreateBook
+
+````markdown
+function CreateBook(title, auther, pages,){
+    this.Title = title;
+    this.Author = author;
+    this.Pages = pages
+    
+}
+  
+const book1 = new createBook('Dicas de Jardinagem','Eu',450)
+
+console.log('Book:' + book1)
+````
+
+### **Garbage Collector**
+- coletor de lixo(?) numa tradução
+
+### **Obejtos Built in**
+- usar objetos ja utilizados/criados
+````markdown
+console.log(Math.max(1,2,3,4,5,15))
+````
+- String: para analisar as string
+
+````markdown
+let message = 'Ola meu nome é'
+
+console.log(message.startsWith('Ola'))
+//vai verificar se a mensagem inicia com Ola
+
+console.log(message.includes('meu'))
+// verificar se existe isso na mensagem
+````
+### **Template Literals**
+- Usando essa ferramenta, no exemplo, pra auxiliar na formatação da mensagem, sem necessitar usar '\n' em tudo
+- Apenas usando a crase
+````markdown
+let firstname = 'João'
+const email = 'Olá' + firstname ', \nA reunição está confirmada! \nMaria'
+
+const emailw = `Olá ${firstname}, 
+A reunição está confirmada! 
+Maria´ 
+
+console.log(email)
+console.log(email2)
 ````
 
 
@@ -322,8 +398,11 @@ for (let i of friends)
 
 
 
-````markdown
-```bash
 
-```
+
+
+
+
+````markdown
+
 ````
