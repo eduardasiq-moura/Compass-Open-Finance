@@ -1,4 +1,4 @@
-## O que é JavaScript
+## **O que é JavaScript**
 
 - JavaScript é uma linguagem de programação. É o que nós chamamos de scripting.
 
@@ -13,16 +13,14 @@
 
 - HTML e CSS parte estática e JavaScript parte dinâmica.
 
-## Os arquivos
+## **Os arquivos**
 
 - Existem os três arquivos mais importantes iniciais para criar as aplicações: *index.html, index.js e style.css *
     - **index.html:** as instruções da página web estática.
     - **index.js:** dinamico, arquivos javascript
     - **style.css:** trazer vida a sua aplicação ou ao seu projeto, contém tipo de fonte, as cores, ect
 ---
-## **DIA 1**
-
-### Variáveis
+## **DIA 1 - Variáveis**
 
 - usado o 'let' no lugar de 'var' para declarar variáveis
 - nao pode começar com numero
@@ -42,7 +40,7 @@ const price = 30;
 console.log(price);
 ```
 
-*Tipos de Variáveis*
+#### **Tipos de Variáveis**
 
 - primitivo: string, numero, boolean, undefined, null
   
@@ -97,9 +95,9 @@ console.log(percentual10(40))
 ```
 ---
 
-## **DIA 2**
+## **DIA 2 - Operadores**
 
-### **Operadores Matemáticos**
+#### **Operadores Matemáticos**
 
 ````markdown
 let num1 = 3
@@ -113,7 +111,7 @@ console.log(total++)
 console.log(total)
 ````
 
-### **Operações de Atribuição**
+#### **Operações de Atribuição**
 
 ````markdown
 let num1 = 'Eduarda'
@@ -124,7 +122,7 @@ let num1 = 'Eduarda'
 console.log(num1 === 'Eduarda') 
 ````
 
-### **Operações de Igualdade**
+#### **Operações de Igualdade**
 
 ````markdown
 let num1 = '1' // string
@@ -135,7 +133,7 @@ console.log(num1 == num2)
 // vai verificar se tem o mesmo valor -> loose (V)
 ````
 
-### **Operadores Ternários**
+#### **Operadores Ternários**
 
 ````markdown
 let driver = 90
@@ -144,7 +142,7 @@ let speed = driver > 110 ? 'Above' : 'Below'
 console.log(speed)
 ````
 
-### **Operadores Lógicos: and, or e not**
+#### **Operadores Lógicos: and, or e not**
 - and(&&): um E outro
 - or(||): um OU outro
 - not(!): não
@@ -160,7 +158,7 @@ let podeViajar = !podeVotar
 console.log('Pode viajar: ' + podeViajar)
 ````
 
-### **Operadores Lógicos com Strings**
+#### **Operadores Lógicos com Strings**
 
 - Ao utilizar o OR vai ser verificado se a corCliente(primeiro termo) foi definido, entao vai aparecer ele primeiro, caso nao tivesse definição ia imprimir a corEstoque que é o 2 termo 
 - Verifição acontece da esquerda pra direita
@@ -172,7 +170,7 @@ let corVendida = corCliente || corEstoque
 console.log(corVendida)
 ````
 
-### **Precedência dos Operadores**
+#### **Precedência dos Operadores**
 
 - O que é: quando tem uma expressão matemática por exemplo e vários tipos de operações no meio, qual delas vai ser executada primeira = precedência
 ````markdown
@@ -187,7 +185,7 @@ console.log(num1)
 let num2 = (3  + 4 )* 2
 console.log(num2)
 ````
-### **Operações condicionais - if else**
+#### **Operações condicionais - if else**
 
 ````markdown
 let driverSpeed = 80
@@ -202,7 +200,7 @@ else{
     console.log('Dirigindo devagar!') 
     }
 ````
-### **Switch/Case**
+#### **Switch/Case**
 
 - Trocar esse(switch) por aquele (case)
 - Existem varios cases dentro do switch
@@ -223,7 +221,7 @@ switch(airport){
     console.log('Unknown') // se nao achar cai aqui
 }
 ````
-### **For Loop**
+#### **For Loop**
 
 - dentro do for existem tres partes: *variavel; condição; encremento*
 
@@ -233,7 +231,7 @@ for(i = 0; i <= 10; i++){
 }
 ````
 
-### **While Loop**
+#### **While Loop**
 
 - a variável fica do lado de fora
 - a condição fica dentro do while
@@ -247,7 +245,7 @@ while(i <=10){
   i++
 }
 ````
-### **Do While Loop**
+#### **Do While Loop**
 
 - começa com a variável fora
 - condição vem com o while
@@ -262,7 +260,7 @@ do{
 - While verifica antes de executar
 - Do While executa para depois verificar
 
-### **For in Loop**
+#### **For in Loop**
 
 ````markdown
 const myCar = {
@@ -274,7 +272,7 @@ for(let i in myCar) //vai analisar DENTRO(in)
   console.log(i, myCar[i])
 
 ````
-### **For Of Loop**
+#### **For Of Loop**
 - dentro de um array
 
 ````markdown
@@ -285,9 +283,7 @@ for (let i of friends)
 ````
 ---
 
-## **DIA 3**
-
-### **Programação Orientada a Objeto**
+## **DIA 3 - Programação Orientada a Objeto**
 
 - Um objeto pode ser qualquer coisa, ele tem propriedades, métodos (o que pode fazer). Exemplo um livro: 
   - Propriedades: titulo, autor, paginas, preço
@@ -310,9 +306,8 @@ const book = {
 
 
 ````
-- Funções dentro do Objeto
+#### **Funções dentro do Objeto - Factory**
 
-### **Factory**
 - Usando o exemplo de livros ainda, dentro do factory, vai emglobar varios tipos de objetos, como livros diferentes
 - Usar factory para criar objetos
   
@@ -339,7 +334,7 @@ console.log('Book:' + book1)
 console.log('Book:' + book2)
 ````
 
-### **Criando um Construtor**
+#### **Criando um Construtor**
 - construtor usa letra maiuscula no começo de cada palavra no nome ex: CreateBook
 
 ````markdown
@@ -355,10 +350,10 @@ const book1 = new createBook('Dicas de Jardinagem','Eu',450)
 console.log('Book:' + book1)
 ````
 
-### **Garbage Collector**
+#### **Garbage Collector**
 - coletor de lixo(?) numa tradução
 
-### **Obejtos Built in**
+#### **Obejtos Built in**
 - usar objetos ja utilizados/criados
 ````markdown
 console.log(Math.max(1,2,3,4,5,15))
@@ -374,7 +369,7 @@ console.log(message.startsWith('Ola'))
 console.log(message.includes('meu'))
 // verificar se existe isso na mensagem
 ````
-### **Template Literals**
+#### **Template Literals**
 - Usando essa ferramenta, no exemplo, pra auxiliar na formatação da mensagem, sem necessitar usar '\n' em tudo
 - Apenas usando a crase
 ````markdown
@@ -390,16 +385,16 @@ console.log(email2)
 ````
 ---
 
-## **DIA 4**
+## **DIA 4 - Array**
 
-- O que são Array: um objeto que você pode adicionar multiplos valores
+- *O que é um Array:* é  um objeto que você pode adicionar multiplos valores
 ````markdown
 const friends = ['Ana', 'Maria', 'João']
 const num = [1, 2, 3, 4, true]
 console.log(friends)
 console.log(num)
 ````
-- Adicionar valores a Array
+#### **Adicionar valores a Array**
  ````markdown 
 const num = [2, 3, 4]
 num.push(10, 11, 12)
@@ -412,7 +407,7 @@ num.splice(2, 0, 8, 9)
 console.log(num)
 ````
 
-- Localizar itens primitivos
+#### **Localizar itens primitivos**
 
 ````markdown
 const num = [ 6, 7, 8, 9]
@@ -420,7 +415,7 @@ console.log(num.indexPf(8)) //mostrou a posição
 console.log(num.includes(7))// se inclui
 ````
 
-- Localizar itens de referencia
+#### **Localizar itens de referência**
 ````markdown
 const movie = [
   {id:1, movieName:'Senhor dos Anéis'},
@@ -434,7 +429,7 @@ console.log(movies.find(function(movie){
 ````
 - Usa o Find se for uma Array de referencia, com multiplos valores, é necessário criar uma função
 
-- Arrow Function
+#### **Arrow Function**
 
 ````markdown
 const movie = [
@@ -447,7 +442,7 @@ console.log(movies.find(movie => movie.movieName == 'Senhor dos Anéis'))
 ````
 - Na flecha esta incluso a function e return, mais simples que a de cima
 
-- Removendo itens de Array
+#### **Removendo itens de Array**
 ````markdown
 const num = [1, 2 , 3, 4]
 const final = num.pop()// tira o ultimo numero
@@ -457,7 +452,7 @@ const final = num.pop()// tira o ultimo numero
 console.log(num)
 console.log(final)
 ````
-- Esvaziando uma Array
+#### **Esvaziando uma Array**
 ````markdown
 let num = [5, 6, 7, 8]
 
@@ -468,7 +463,7 @@ num.length = 0
 num.splice(0,num.length)
 ````
 
-- Concatenando uma Array
+#### **Concatenando uma Array**
 
 ````markdown
 let numbers = [5, 6, 7, 8]
@@ -481,7 +476,7 @@ half = all.slice(3,5)
 console.log(all)
 console.log(half)
 ````
-- Join Array
+#### **Join Array**
   
 ````markdown
 let clients = ['ana','maria,'joao']
@@ -493,14 +488,15 @@ console.log(clientsJoin)
 ````
 - Serve para adicionar qualquer coisa dentro da Array
 
-- Revertendo a Array
+#### **Revertendo a Array**
 ````markdown
 let clients = ['ana','maria,'joao']
 clients.sort() //organizou em ordem 
 clients.reverse()// fez o contrario 
 console.log(clients)
 ````
-- Verificando elementos dentro de uma Array
+Verificando elementos dentro de uma Array
+
 ````markdown
 const tempLondon = [18, 13, 8, 2]
 const tempPositive = tempLondon.every(function(value){
@@ -527,19 +523,50 @@ const tempPositive2 = tempLondon.filter(value =>
 console.log(tempPositive)
 ````
 ---
+## **DIA 5 - Tipos de Funções**
+
 
 ````markdown
+//Function Declaration
 
+function movie(){
+  console.log('Senhor dos Anéis')
+}
+movie()
+
+//Function Expression
+const car = function(){
+  console.log('Tesla)
+}
+
+car()
 ````
+- São dois tipos de chamar uma função, uma pelo nome da função e outra pelo nome da variável
+  - Function Declaration: colocar a função movie() antes da função, irá funcionar o código 
+  - Function Expression: colocar a variável car() antes da função, o código não vai funcionar
 
+- Hoisting: ele ta incluso ja dentro da Declaration, então ele vai automaticamente fazer a função ser executada primeiro.
+  - No caso da Expression, ela está associada a uma variável, então nao existe hoisting, assim vai ficar na ordem que foi escrita o codigo - isso que o JS vê
 
+#### **Usando argumentos em funções**
 ````markdown
+function price(a, b){ //argumentos
+  return total = 0
+  for (let value of arguments)
+    total += value
+  return total
+}
 
+console.log(10, 20, 30, 40)
 ````
-
+- Parametros Default
 
 ````markdown
+function carLoan(loan, rate, years){
+  return (loan * rate / 100 * year) + loan
+}
 
+console.log(carLoan(20000,2.5, 5))
 ````
 
 
