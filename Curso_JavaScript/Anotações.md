@@ -388,9 +388,169 @@ Maria´
 console.log(email)
 console.log(email2)
 ````
+---
+
+## **DIA 4**
+
+- O que são Array: um objeto que você pode adicionar multiplos valores
+````markdown
+const friends = ['Ana', 'Maria', 'João']
+const num = [1, 2, 3, 4, true]
+console.log(friends)
+console.log(num)
+````
+- Adicionar valores a Array
+ ````markdown 
+const num = [2, 3, 4]
+num.push(10, 11, 12)
+//adiciona elementos no final da array
+num.unshift(5, 6, 7)
+//adiciona no começo
+num.splice(2, 0, 8, 9)
+//ele vai começar a adicionar a partir do index 3(num 4), sem deletar nenhum index e vai adicionar os numeros 8 e 9
+
+console.log(num)
+````
+
+- Localizar itens primitivos
+
+````markdown
+const num = [ 6, 7, 8, 9]
+console.log(num.indexPf(8)) //mostrou a posição
+console.log(num.includes(7))// se inclui
+````
+
+- Localizar itens de referencia
+````markdown
+const movie = [
+  {id:1, movieName:'Senhor dos Anéis'},
+  {id:2, movieName:'Harry Potter'},
+  {id:3, movieName:'Jogos Vorazes'}
+]
+
+console.log(movies.find(function(movie){
+  return movie.movieName == 'Senhor dos Anéis'
+}))
+````
+- Usa o Find se for uma Array de referencia, com multiplos valores, é necessário criar uma função
+
+- Arrow Function
+
+````markdown
+const movie = [
+  {id:1, movieName:'Senhor dos Anéis'},
+  {id:2, movieName:'Harry Potter'},
+  {id:3, movieName:'Jogos Vorazes'}
+]
+
+console.log(movies.find(movie => movie.movieName == 'Senhor dos Anéis'))
+````
+- Na flecha esta incluso a function e return, mais simples que a de cima
+
+- Removendo itens de Array
+````markdown
+const num = [1, 2 , 3, 4]
+const final = num.pop()// tira o ultimo numero
+.shift() // tira o primeiro
+.splice(1,2)//tira a partir do index 1 sai o index 2
+
+console.log(num)
+console.log(final)
+````
+- Esvaziando uma Array
+````markdown
+let num = [5, 6, 7, 8]
+
+n um = []
+
+num.length = 0
+
+num.splice(0,num.length)
+````
+
+- Concatenando uma Array
+
+````markdown
+let numbers = [5, 6, 7, 8]
+let letters = ['a', 'b', 'c']
+
+all = numbers.concat(letters) // juntou os array
+half = all.slice(3,5)
+//vai pegar só uma porção, uma nova array
+
+console.log(all)
+console.log(half)
+````
+- Join Array
+  
+````markdown
+let clients = ['ana','maria,'joao']
+
+console.log(clients)
+let clientsJoin = clients.join(',')
+
+console.log(clientsJoin)
+````
+- Serve para adicionar qualquer coisa dentro da Array
+
+- Revertendo a Array
+````markdown
+let clients = ['ana','maria,'joao']
+clients.sort() //organizou em ordem 
+clients.reverse()// fez o contrario 
+console.log(clients)
+````
+- Verificando elementos dentro de uma Array
+````markdown
+const tempLondon = [18, 13, 8, 2]
+const tempPositive = tempLondon.every(function(value){
+  return value >= 0
+})
+
+console.log(tempPositive)
+//vai verificar todos os valores dentro da array se são poitivos nesse caso - true/false
+
+````
+
+- Filtrando uma Array com |FIlter
+
+````markdown
+onst tempLondon = [18, 13, 8, -2]
+const tempPositive = tempLondon.filter(function(value){
+  return value >= 0
+}) //vai retornar só os positivos
+
+const tempPositive2 = tempLondon.filter(value =>
+  value >= 0)
+//mais limpo
+
+console.log(tempPositive)
+````
+---
+
+````markdown
+
+````
 
 
+````markdown
 
+````
+
+
+````markdown
+
+````
+
+
+````markdown
+
+````
+
+
+````markdown
+
+````
 
 
 
