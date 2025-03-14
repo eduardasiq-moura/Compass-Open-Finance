@@ -33,7 +33,7 @@ function compareNumbers() {
             document.getElementById('attempts').innerHTML = attempts
            }
            else {
-            document.getElementById('textOutput').innerHTML = 'Parabéns!!!'
+            document.getElementById('textOutput').innerHTML = 'Parabéns!!! É o número ' + computerNumber
             attempts++
             document.getElementById('attempts').innerHTML = attempts
             document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
