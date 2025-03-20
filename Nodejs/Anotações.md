@@ -1,6 +1,6 @@
 # **Introdução ao Nodejs**
 
-- *Node.js* é um ambiente de execução JavaScript de código aberto e multiplataforma, amplamente utilizado para diversos tipos de projetos.
+  *Node.js* é um ambiente de execução JavaScript de código aberto e multiplataforma, amplamente utilizado para diversos tipos de projetos.
   -  Ele executa o motor V8 do Google Chrome fora do navegador, o que contribui para seu alto desempenho.
 
 ### **Aplicação do Nodejs**
@@ -34,9 +34,7 @@ server.listen(port, hostname, () => {
 });
 
 ````
----
-
-## **O que precisa saber de JS antes de mergulhar no Nodejs**
+--
 
 ## **Diferenças entre Node.js e o Navegador**
 
@@ -58,7 +56,7 @@ server.listen(port, hostname, () => {
 
 ## **The V8 JavaScript Engine**
 
-- V8 é o nome do mecanismo que alimenta o Google Chrome.
+V8 é o nome do mecanismo que alimenta o Google Chrome.
   - Pega o JS e executa enquanto navega com o Chrome.
   - Analisa e executa o JS.
 - Esse recurso permitiu o surgimento do *Node.js*
@@ -72,6 +70,7 @@ server.listen(port, hostname, () => {
 - V8 é escrito em C++
 - O JS é considerado uma linguagem interpretada  mas os mecanismos JavaScript modernos não apenas interpretam o JavaScript, eles o *compilam*.
 - O JavaScript é compilado internamente pelo V8 com compilação just-in-time (JIT) para acelerar a execução.
+---
 
 ## **Introdução ao pacote npm**
 
@@ -99,7 +98,7 @@ server.listen(port, hostname, () => {
 | `--save-optional`  | Instala e adiciona a entrada ao arquivo `optionalDependencies` no `package.json` |
 | `--no-optional`    | Impede que dependências opcionais sejam instaladas                        |
 
-- Diferenças:
+**Diferenças:**
   - devDependencies: ferramentas de desenvolvimento, como uma biblioteca teste
   - dependencies: empacotado com o aplicativo em produção
   - optionalDependencies: a falha de compilação da dependência não fará com que a instalação falhe. Mas é responsabilidade do seu programa lidar com a falta de dependência
@@ -132,7 +131,7 @@ server.listen(port, hostname, () => {
 }
 
 ````
-- No lugar de executar essas grandes linhas de códigos, da para simplificar com o `npm` e apenas usar
+No lugar de executar essas grandes linhas de códigos, da para simplificar com o `npm` e apenas usar
 
 ````
 $ npm run watch
