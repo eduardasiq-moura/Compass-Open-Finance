@@ -9,7 +9,7 @@ class App{
   constructor(){
     this.server = express();
 
-    mongoose.connect('SUA URL DO BANCO', {
+    mongoose.connect('SUA URL MONGO_DB', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
