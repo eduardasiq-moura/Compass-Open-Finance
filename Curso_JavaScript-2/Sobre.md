@@ -31,5 +31,11 @@ delete https://minhaapi.com/usuarios/1 -> deletando o usuario 1
 **Vantagens**
 Vários clientes(front end)
 Comunicação padronizada (web, mobile, desktop)
+***
 
-JSON
+**JWT - Json Web Token**
+
+Conhecido como -> web talking
+Ele vai ajudar na parte de segurança de trafegar as informações para garantir que o usuário está autenticado numa aplicação é realmente aquela pessoa
+
+- Autenticando com o JWT
